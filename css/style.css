@@ -1,0 +1,439 @@
+
+                        /*  General CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 100%;
+    float: left;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #f6f6f6;
+}
+
+
+a{
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+    
+                        /*  Header Section  */
+
+header{
+    width: 100%;
+    float: left;
+    padding: 27px 0;
+}
+
+.logo {
+    width: 130px;
+    margin: 0px 0px -5px 201px;
+}
+
+
+                            /*  Banner Section  */
+                
+.banner{
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.banner-para{
+
+   
+
+}
+
+.banner-para h1{
+
+    
+    margin: 41px 0px 0px 556px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    display: inline;
+    
+
+}
+
+.banner-para p{
+
+    margin: 34px 0px 0px 436px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.banner-btn{
+
+    color: white;
+    background: transparent;
+    margin: 26px 1px 0px -2px;
+    padding: 12px 29px;
+    font-size: 17px;
+    text-align: center;
+    
+    background-size: 200%;
+    background-position: right;
+    
+    font-weight: 600;
+    
+}
+
+.banner-btn a{
+
+    text-decoration: none;
+    color: white;
+    border: 1px solid #2290d6;
+    padding: 17px;
+
+}
+
+span{
+    
+        border-bottom: 2px solid #2290D6;
+        display: block;
+        width: 40%;
+        margin: 15px auto;
+    }
+
+
+    .angle-down {
+        display: block;
+        color: white;
+        font-size: 32px;
+        margin-top: 140px;
+        cursor: pointer;
+    }
+    
+    
+
+                         /* Simple pure design */
+
+    .simplePureDesign{
+
+        width: 100%;
+        float: left;
+
+    }
+
+    .simplePureDesign-para{
+
+        margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+
+       
+
+    }
+
+
+    .simplePureDesign-para h3{
+
+        font-size: 37px;
+    
+    margin: 20px 0;
+    color: #2E3A51;
+
+       
+
+    }
+    
+    .simplePureDesign-para p{
+
+
+    font-size: 17px;
+    line-height: 26px;
+    color: #00000038;
+    margin-bottom: 35px;
+    
+       
+
+    }
+
+
+                                  /* Icon */
+    
+.symbol {
+    width: 100%;
+    float: left;
+    background: white;
+   
+}
+
+
+
+
+.symbol-icon {
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 30px;
+    float: left;
+}
+
+.s-icon {
+    background: #48BAFF;
+    color: white;
+    text-align: center;
+    width: 61px;
+    height: 83px;
+    line-height: 83px;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.s-icon::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #ffffff99;
+    right: 0;
+    opacity: 0.4;
+}
+
+.fa-mouse-pointer:before {
+    content: "\f245";
+    font-size: 35px;
+}
+
+.fa-microphone:before {
+    content: "\f130";
+    font-size: 38px;
+}
+
+
+.symbol-text {
+    text-align: center;
+   
+    margin: 0 auto;
+}
+
+
+
+.symbol-text h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.symbol-text p {
+    color: #0000007a;
+    width: 260px;
+    margin: 0 auto;
+}
+
+
+
+                             /* Showcase */
+
+.showcase{
+    width: 100%;
+    float: left;
+}
+
+.showcase-one{
+
+}
+
+.showcase-one h1{
+
+    text-align: center;
+    margin: 27px;
+    
+}
+
+.showcase-one p{
+
+    text-align: center;
+    font-size: 10px;
+}
+
+.showcase-two
+{
+    width: 100%;
+    float: left;
+
+}
+
+.showcase-two-pic
+{
+    width: 30%;
+    float: left;
+    margin: 41px 4px 9px 20px;
+}
+    
+
+                           /* Stay with us */
+
+.stayWithUs
+{
+  width: 100%;
+  float: left;
+  background-image: url(../img/stay.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin: 0px 0px 0px -99px
+}
+
+.stayWithUs-one h3{
+
+    font-size: 36px;
+    font-weight: 400;
+    margin: 8px 0;
+    color: white;
+    text-align: center;
+}
+
+.stayWithUs-one p{
+
+    color: #f6f6f694;
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input-form{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.form-control {
+    color: white;
+    background: transparent;
+    border: 1px solid #ffffff8c;
+    width: 67%;
+    padding: -2px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.stayWithUs-two{
+    background-color: #07070700;
+
+}
+
+.stayWithUs-three{
+   
+        width: 70%;
+        margin: 18px auto;
+        text-align: center;
+        margin-left: 91px;
+    }
+
+
+.staybox {
+
+}
+
+.stay-text{
+    color: #f6f6f694;
+    margin-left: 3px;
+}
+
+.input-btn {
+    color: white;
+    background: transparent;
+    border: 1px solid #2290D6;
+    padding: 8px 42px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 186px;
+}
+
+ 
+                /* Footer section*/
+
+    
+footer{
+    width: 100%;
+    float: left;
+}
+
+.copyright{
+    width: 45%;
+    color: #0000003d;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 26px 0px -13px 64px;
+}
+
+
+.social{
+
+    width: 100%;
+    float: left;
+    margin: -4px 18px -1px -10px;
+    height: 100px;
+}
+
+.social ul li {
+
+    
+    float: left;
+    margin: 1px -2px -2px 20px;
+    
+}
+
+
+.social ul li a {
+    
+    background-color: #15A4FA;
+    color: white;
+    width: 21px;
+    height: 27px;
+    margin: -2px;
+    padding: -10px;
+    display: block;
+    text-align: center;
+}
+   
+
+
+
+ul {
+    list-style: none;
+    float: left;
+    text-align: right;
+    margin: 0px 0px 0px 945px;
+}
+
+
+
+
+/*   Extra*/
+
+
+.clear {
+
+     clear:both;
+}
